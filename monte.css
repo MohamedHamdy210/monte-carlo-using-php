@@ -1,0 +1,71 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+	background-color: black; 
+}
+.v1{
+	
+	float: left;
+	margin-left: 80PX;
+	padding: 80px;
+	width: 400px;
+	height: 400px;
+	border:2px solid black;
+	background-color: white;
+	border-radius: 50%;
+	text-align: center;
+	word-wrap: break-word;
+}
+.v2{
+	float: left;
+	margin-left: 235Pt;
+	padding: 43px;
+	width: 400px;
+	height: 400px;
+	border:2px solid black;
+	background-color: white;
+	border-radius: 50%;
+	text-align: center;
+	word-wrap: break-word;
+}
+.v3{
+	background-color: white;
+	width:500px;
+	height: 100px;
+	margin-left: 950px;
+	margin-top: 620px;
+	padding: 20px;
+}
+input{
+	border:none;
+	border-bottom: 1px solid black;
+	background-color: inherit;
+	width: 55px;
+	height: 55px;
+/*	border-radius: 50%;*/
+	text-align: center;
+}
+.v1 label,.v2 label{
+	background-color: inherit;
+	text-transform: uppercase;
+	font-size: 20px;
+	color: black;
+	font-weight: 180%;
+
+}
+.v3 label{
+	color: black;
+	background-color: inherit;
+	text-transform: uppercase;
+	font-size: 18px;
+}
+.v3 input[type = 'submit']{
+	word-wrap: break-word;
+	border:2px solid black;
+	cursor: pointer;
+}
+form{
+	padding: 40px;
+}
